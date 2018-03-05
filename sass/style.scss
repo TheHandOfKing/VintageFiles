@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(194, 194, 194);
+}
+
+.navbar-expand-lg
+{
+    flex-flow: 0;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+    color:white;
+    transition: color 0.5s ease;
+}
+
+.navbar-brand a{
+    color:darkgray;
+}
+
+#login{
+    margin-left:auto;
+}
+
+#login a{
+    color:darkgray;
+    text-decoration: none;
+}
+
+#login a:hover{
+    color:white;
+    transition: color 0.5s ease;
+}
+
+#login #none:hover{
+    transition: none;
+    color:darkgray;
+}
