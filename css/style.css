@@ -1,1 +1,272 @@
-@font-face{font-family:MostWanted;src:url(fonts/Mostwasted.ttf)}#login{margin-left:auto}header{margin-bottom:80px}.navbar-brand a:hover{background-color:#000}#fluid-color{background-color:#161616}#ccolor{background-color:#161616}h1{padding-top:50px;font-family:MostWanted;color:#fff;text-align:left;font-size:40px}a{color:#000;font-size:20px;font-family:'Quicksand',sans-serif}a:hover{text-decoration:none;color:red;transition:color .2s ease}p{font-family:'Quicksand',sans-serif;font-size:20px;color:#fff;margin-top:40px;text-align:left}h2{color:#fff;margin-top:40px;text-align:left;font-size:30px}#myCarousel{padding-top:50px}#carousel-cont{padding:50px 0}#carousel-cont h2{margin-bottom:40px}#light-theme{background-color:#ddd}.footer{padding-bottom:35px;padding-top:35px}.footer p{color:#000}#copyright a:not(:first-child){padding-right:20px}#copyright img{padding-right:50px}.scroll-top{text-align:right;padding-top:40px}@media (max-width: 991.98px){#copyright{margin-left:0}.scroll-top{padding-top:30px}}.blacklist{font-size:71px;text-align:center;font-family:MostWanted;padding-top:50px;padding-bottom:50px}p{text-align:center}#container-edit a{color:#c90303}#container-edit a:hover{transition:none}#pt-blacklist{padding-top:100px;padding-bottom:50px}.paragraph-padding{margin-bottom:200px}.img-padding{margin-bottom:100px}#picdiv{padding-left:0;padding-right:0}#divpic{padding-left:0;padding-right:0}#bottom-margin{padding-bottom:100px}#bottom-margin p{text-align:center;font-family:MostWanted;font-size:50px}#contactme{background-color:#161616;padding-bottom:200px;padding-top:200px}#contactme label{color:#fff}*{box-sizing:border-box}input[type=text],input[type=password]{width:100%;padding:15px;margin:5px 0 22px;display:inline-block;border:none;background:#f1f1f1}input[type=text]:focus,input[type=password]:focus{background-color:#ddd;outline:none}hr{border:1px solid #f1f1f1;margin-bottom:25px}button{border:none;color:#fff;cursor:pointer;font-family:'Quicksand',sans-serif}.signupbtn{background-color:#4CAF50;padding:14px 20px;width:100%;opacity:.9}button:hover{opacity:1}.cancelbtn{padding:14px 20px;background-color:#f44336}.cancelbtn,.signupbtn{float:left;width:50%}.container{padding:16px}.clearfix::after{content:"";clear:both;display:table}@media screen and (max-width: 300px){.cancelbtn,.signupbtn{width:100%}}#button{background-color:#f8f9fa}.modal-content{width:60%;margin:90px auto}.btn-default{color:#000;border:none;background-color:#f8f9fa}label{font-family:'Quicksand',sans-serif}
+@font-face{
+  font-family: MostWanted;
+  src: url("fonts/Mostwasted.ttf");
+}
+#login{
+  margin-left:auto;
+}
+
+header{
+  margin-bottom:80px;
+}
+.navbar-brand a:hover{
+  background-color:black;
+}
+
+#fluid-color{
+  background-color: rgb(22, 22, 22);
+}
+
+#ccolor{
+  background-color: rgb(22, 22, 22);
+}
+
+
+h1{
+  padding-top:50px;
+  font-family: MostWanted;
+  color:white;
+  text-align: left;
+  font-size:40px;
+ }
+
+a{
+  color:black;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a:hover{
+  text-decoration:none;
+  color:red;
+  transition: color 0.2s ease;
+}
+ p{
+  font-family: 'Quicksand', sans-serif;
+   font-size:20px;
+   color:white;
+   margin-top:40px;
+   text-align: left;
+ }
+ 
+ h2{
+  color:white;
+  margin-top:40px;
+  text-align: left;
+  font-size:30px;
+ }
+
+ #myCarousel{
+   padding-top:50px;
+ }
+
+ #carousel-cont{
+   padding: 50px 0px 50px 0px;
+ }
+
+ #carousel-cont h2{
+   margin-bottom: 40px;
+ }
+
+ #light-theme{
+   background-color: rgb(221, 221, 221);
+ }
+
+ .footer{
+   padding-bottom:35px;
+   padding-top:35px;
+ }
+
+ .footer p{
+   color:black;
+ }
+
+ #copyright a:not(:first-child){
+  padding-right: 20px;
+ }
+
+ #copyright img{
+  padding-right:50px;
+ }
+
+ .scroll-top{
+  text-align:right;
+  padding-top:40px;
+ }
+
+
+
+ @media (max-width: 991.98px) { 
+  #copyright{
+    margin-left:0px;
+  }
+
+  .scroll-top{
+    padding-top:30px;
+  }
+
+  .modal-content{
+    width:100%;
+  }
+ }
+
+
+.blacklist{
+  font-size: 71px;
+  text-align:center;
+  font-family: MostWanted;
+  padding-top:50px;
+  padding-bottom: 50px;
+
+}
+
+p{
+  text-align:center
+}
+
+#container-edit a{
+  color:rgb(201, 3, 3);
+}
+
+#container-edit a:hover{
+  transition:none;
+}
+#pt-blacklist{
+  padding-top:100px;
+  padding-bottom: 50px;
+}
+
+.paragraph-padding{
+  margin-bottom: 200px;
+}
+
+.img-padding{
+  margin-bottom:100px;
+}
+
+#picdiv{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+#divpic{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+#bottom-margin{
+  padding-bottom:100px;
+}
+
+#bottom-margin p{
+  text-align: center;
+  font-family: MostWanted;
+  font-size:50px;
+}
+
+#contactme{
+background-color: rgb(22, 22, 22);
+padding-bottom:200px;
+padding-top:200px;
+}
+#contactme label{
+  color:white;
+}
+/*# sourceMappingURL=style.css.map */
+
+
+
+/* for signup*/
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button{
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+.signupbtn {
+    background-color: #4CAF50;
+    padding: 14px 20px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+
+}
+
+
+#button{
+  background-color: #f8f9fa;
+}
+
+
+.modal-content{
+  width:60%;
+  margin:90px auto;
+}
+
+.btn-default{
+  color:black;
+  border:none;
+  background-color: #f8f9fa;
+}
+
+label{
+  font-family: 'Quicksand', sans-serif;
+}
