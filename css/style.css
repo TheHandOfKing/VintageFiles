@@ -105,9 +105,6 @@ a:hover{
     padding-top:30px;
   }
 
-  .modal-content{
-    width:100%;
-  }
  }
 
 
@@ -254,13 +251,6 @@ button:hover {
 #button{
   background-color: #f8f9fa;
 }
-
-
-.modal-content{
-  width:60%;
-  margin:90px auto;
-}
-
 .btn-default{
   color:black;
   border:none;
@@ -269,4 +259,9 @@ button:hover {
 
 label{
   font-family: 'Quicksand', sans-serif;
+}
+
+.modal-content{
+  width:100%;
+  margin: 0px;
 }
