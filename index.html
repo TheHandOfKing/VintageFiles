@@ -14,43 +14,69 @@
 
         <body>
             <header>
+
+                      
+               <nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top">
+
+                        <div class="navbar-header">
+                                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Vintagefiles"></a>
+                              </div>
                 
-                <nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                    </button>        
 
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Vintagefiles"></a>
-                      </div>
-
-                    <div class="col-lg-5 collapse navbar-collapse" id="nav-menu">
+                    <div class="col-lg-10 collapse navbar-collapse" id="nav-menu">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a href="" class="nav-link">Home</a>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                          
+                            <li class="nav-item">
+                                <a href="blacklist.html" class="nav-link">The Blacklist</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Showroom</a>
+                                <a href="contact_me.html" class="nav-link">Contact Me</a>
                             </li>
+
                             <li class="nav-item">
-                                <a href="" class="nav-link">The Blacklist</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Contact Me</a>
-                            </li>
+                                 <button onclick="document.getElementById('id01').style.display='block'" id="button"><a class="nav-link">Sign Up</a></button>
+                                    <div id="id01" class="modal">
+                                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                      <form class="modal-content" action="/action_page.php">
+                                        <div class="container">
+                                          <hr>
+                                          <label for="E-mail"><b>Email</b></label>
+                                          <input type="text" placeholder="Enter your Email" name="E-mail" required>
+                                    
+                                          <label for="psw"><b>Password</b></label>
+                                          <input type="password" placeholder="Enter Password" name="password" required>
+                                    
+                                          <label for="password-repeat"><b>Repeat your Password</b></label>
+                                          <input type="password" name="psw-repeat" required>
+                                          
+                                          <label>
+                                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                                          </label>
+                                    
+                                          <p>By creating an account you agree to our <a href="terms.html" target="_blank" style="color:dodgerblue">Terms & Privacy Policy</a>.</p>
+                                    
+                                          <div class="clearfix">
+                                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                            <button type="submit" class="signupbtn">Sign Up</button>
+                                          </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                </li>
                         </ul>
                     </div>
-
-                    <div class="col-xs-1" id="login">
-                        <a href="#">Register </a> <a id="none">/</a>  <a href="#">Login</a>
-                    </div>
-                </nav>
+   </nav>
    </header>
 
    <div class="full-width-image">
-      <img src="images/pursuit.jpg" class="d-block w-100" alt="pursuit">
-   </div>
-
+        <img src="images/pursuit.jpg" class="d-block w-100" alt="pursuit">
+     </div>
    <div class="container-fluid" id="fluid-color">
      <div class="container">
        <div class="col-lg-10 mx-0" id="container-edit">
@@ -134,31 +160,50 @@
                         </a>
                       </div>
                     </div>
+
+
+                    <div class="col-lg-10 mx-auto" id="bottom-margin">
+                            <p>Here is our intro to the game</p>
+                        <iframe width="100%" height="560" src="https://www.youtube.com/embed/JdkZaxGD4tY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
                 </div>
+
              </div>
-        </div>
+
+
+          
+        
 
 <footer class="footer">
 
    <div class="container-fluid">
 
        <div class="row">
-            <div class="col-md-10 pl-5">
+            <div class="col-md-12">
                 <div id="copyright">
-                    <a href="index.html"><img src="images/logo.png" alt="Vintagefiles"></a> <a href="">Sitemap</a> <a href="#">About Me</a> <a href="#">Terms of Service</a> <p> Logo created by :<a href="https://freelogocreator.com/"> Free Logo Creator</a></p>
+                    <a href="index.html"><img src="images/logo.png" alt="Vintagefiles"></a> <a href="sitemap.xml">Sitemap</a><a href="terms.html">Terms of Service</a>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="scroll-top">
-                <a href="#"><i class="fa fa-angle-up"></i></a>
-            </div>
+
             </div>
        </div>
+       
+       <div class="row" >
+        <div class="col-lg-11 mx-auto">
+            <p> Logo created by :<a href="https://freelogocreator.com/"> Free Logo Creator</a></p> <p>Site created by: Aleksandar Marjanovic 115/17</p>
+            </div>
+        <div class="col-lg-1 mr-auto">
+            <div class="scroll-top">
+            <a href="#" onclick="topFunction()"><i class="fa fa-angle-up"></i></a>
+        </div>
+    </div>
+</div> 
    </div>
   
 </footer>
-
+           
             <script src="js/jquery.min.js"></script>
+            <script src="js/login.js"></script>
+            <script src="js/scrolltop.js"></script>
             <script src="js/bootstrap.min.js"></script>
         </body>
 
