@@ -9,6 +9,17 @@
 header{
   margin-bottom:80px;
 }
+
+header ul li button{
+  color:rgba(0, 0, 0, 0.5);
+  margin-top:5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+header ul li button:hover{
+  color:rgba(0, 0, 0, 0.7);
+}
 .navbar-brand a:hover{
   background-color:black;
 }
@@ -105,11 +116,15 @@ a:hover{
     padding-top:30px;
   }
 
+  
+
+ }
+
+ @media (max-width: 1101.98px){
   form .container{
     height:300px;
     overflow:scroll;
   }
-
  }
 
 
@@ -211,6 +226,7 @@ button{
 }
 .signupbtn {
     background-color: #4CAF50;
+    color:white;
     padding: 14px 20px;
     width: 100%;
     opacity: 0.9;
@@ -224,6 +240,7 @@ button:hover {
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
+  color:white;
 }
 
 /* Float cancel and signup buttons and add an equal width */
