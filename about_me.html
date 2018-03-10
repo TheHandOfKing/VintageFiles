@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+        <head>
+            <meta charset="utf-8"/>
+            <title>Vintage Files</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+            <link rel="stylesheet" href="css/mybootstrap.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+            <link rel="stylesheet" type="text/css" href="css/style.css"/>
+            <link rel="icon" href="images/logo.png">
+            <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        </head>
+
+        <body>
+            <header>
+
+                      
+               <nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top">
+
+                        <div class="navbar-header">
+                                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Vintagefiles"></a>
+                              </div>
+                
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>        
+
+                    <div class="col-lg-10 collapse navbar-collapse" id="nav-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                          
+                            <li class="nav-item">
+                                <a href="blacklist.html" class="nav-link">The Blacklist</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact_me.html" class="nav-link">Contact Me</a>
+                            </li>
+
+                            <li class="nav-item">
+                                 <button onclick="document.getElementById('id01').style.display='block'" id="button">Sign Up</button>
+                                    <div id="id01" class="modal">
+                                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                      <form class="modal-content" action="/action_page.php">
+                                        <div class="container">
+                                          <hr>
+                                          <label for="E-mail"><b>Email</b></label>
+                                          <input type="text" placeholder="Enter your Email" name="E-mail" id="E-mail" required>
+                                    
+                                          <label for="psw"><b>Password</b></label>
+                                          <input type="password" placeholder="Enter Password" name="password" id="psw" required>
+                                    
+                                          <label for="password-repeat"><b>Repeat your Password</b></label>
+                                          <input type="password" name="psw-repeat" required id="password-repeat">
+                                          
+                                          <label>
+                                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                                          </label>
+                                    
+                                          <p>By creating an account you agree to our <a href="terms.html" target="_blank" style="color:dodgerblue">Terms & Privacy Policy</a>.</p>
+                                    
+                                          <div class="clearfix">
+                                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                            <button type="submit" class="signupbtn">Sign Up</button>
+                                          </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item active">
+                                  <a href="about_me.html" class="nav-link">Author</a>
+                              </li>
+                        </ul>
+                    </div>
+   </nav>
+   </header>
+
+   <div class="container-fluid" id="contactme">
+    <div class="container">
+    	<h1>About the Author:</h1>
+		<img src="images/f1.png"/>
+		<p>My name is Aleksandar Marjanovic and i made this site as a project for the ICT school, IT course, Web Design subject. This is also the first site i have ever made,
+			but not the first one i've worked with. The first contact with HTML and CSS (in witch this site was created) was 2 years ago
+			when i worked on a World Of Warcraft emulation, my job was to translate the pages from English to Serbian and also create a portion (around 30%) of the 
+			Terms of Service, which in it's original is on this site, and on the vallhala-realms.com respectively. Aside from programming i am into basketball and the only
+			thing i can't allow myself to be out of shape. I was born in Belgrade, Serbia,
+			and i currently live in Obrenovac. 
+        </p>
+    </div>
+       </div>
+
+
+
+   <footer class="footer">
+
+    <div class="container-fluid">
+ 
+        <div class="row">
+             <div class="col-md-12">
+                 <div id="copyright">
+                     <a href="index.html"><img src="images/logo.png" alt="Vintagefiles"></a> <a href="sitemap.xml">Sitemap</a><a href="terms.html">Terms of Service</a>
+                 </div>
+ 
+             </div>
+        </div>
+        
+        <div class="row" >
+         <div class="col-lg-11 mx-auto">
+             <p> Logo created by :<a href="https://freelogocreator.com/"> Free Logo Creator</a></p> <p>Site created by: Aleksandar Marjanovic 115/17</p>
+             </div>
+         <div class="col-lg-1 mr-auto">
+             <div class="scroll-top">
+             <a href="#" onclick="topFunction()"><i class="fa fa-angle-up"></i></a>
+         </div>
+     </div>
+ </div> 
+    </div>
+   
+ </footer>
+            
+             <script src="js/jquery.min.js"></script>
+             <script src="js/login.js"></script>
+             <script src="js/scrolltop.js"></script>
+             <script src="js/bootstrap.min.js"></script>
+         </body>
+ 
+ </html>
